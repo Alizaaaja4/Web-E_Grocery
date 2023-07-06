@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website E-Groceries</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <header class="header">
+        
+        <a href="#" class="logo">Aliza<span>.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#ourpackage">Our Package</a>
+            <a href="#review">Review</a>
+            <a href="#callus">Call Us</a>
+        </nav>
+    </header>
+    <!-- Header ends -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Top Rated E-Grocery Shop in Indonesia</h3>
+                <span> <b>Every Day with best ingredients</b></span>
+                   <p>"The top-rated e-grocery shop in Indonesia offers a convenient and efficient way to purchase groceries online. 
+                    With a wide range of products available, customers can easily find their favorite items and have them delivered 
+                    right to their doorstep. The shop is known for its excellent customer service, ensuring a seamless shopping experience 
+                    for users" <br><br>
+                    @Ridzwan Aulia Azikra </p>
+
+                    <div class="form" id="callus">
+                        <h2>Contact Us</h2>
+                      
+                        <form onsubmit="return validateForm()">
+                          <label for="nama"></label> <br/>
+                          <input type="text" id="nama" name="nama" placeholder="First and last name" required maxlength="30"> <br> <br>
+                      
+                          <label for="mail"></label> <br/>
+                          <input type="email" id="mail" name="mail" placeholder="example@email.com" required maxlength="35"> <br> <br>
+                      
+                          <label for="phone"></label> <br/>
+                          <input type="number" id="phone" name="phone" placeholder="Phone number" required maxlength="10"> <br> <br>
+                      
+                          <label for="pesan"></label><br/>
+                          <textarea id="pesan" name="pesan" class="box" placeholder="Message" cols="73" rows="10"></textarea><br>
+                      
+                          <button class="btnn" type="submit"><a href="#">SEND</a></button>
+                        </form>
+                      </div>
+                      
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- Icon section start -->
+    <section class="icons-container">
+
+        <div class="icons">
+            <img  src="free-delivery.png" alt="">
+            <div class="info">
+                <h3>free delivery</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img  src="kualitas.png" alt="">
+            <div class="info">
+                <h3>top quality</h3>
+                <span>best vegetables</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img  src="gift-card.png" alt="">
+            <div class="info">
+                <h3>offer & gifts</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img  src="payment.png" alt="">
+            <div class="info">
+                <h3>secure paymens</h3>
+                <span>protected by paypal</span>
+            </div>
+        </div>
+
+    </section>
+    <!-- Icon section ends -->
+
+    <!-- Our Package section start -->
+    <section class="ourpackage" id="ourpackage"> 
+
+        <h1 class="heading">our <span>package</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                        <img src="sayur.jpg" alt="">
+
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h3>Fresh vegetable</h3>
+                        <span>fresh vegetables straight from the best agricultural sources</span>
+                        <div class="price">Rp. 85.000<span>Rp. 95.000</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-15%</span>
+                    <div class="image">
+                        <img src="fruit.jpg" alt="">
+
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h3>Fresh Fruits</h3>
+                        <span>Fruit with the best quality from local or import and attractive prices</span>
+                        <div class="price">Rp. 52.700<span>Rp. 62.000</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-23%</span>
+                    <div class="image">
+                        <img src="meat.jpg" alt="">
+
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h3>Fresh Meat</h3>
+                        <span>High-quality meat from selected breeders</span>
+                        <div class="price">Rp. 62.370<span>Rp. 81.000</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-30%</span>
+                    <div class="image">
+                        <img src="paket.jpg" alt="">
+
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h3>Bunding Set</h3>
+                        <span>All kinds of cooking utensils to help you cook</span>
+                        <div class="price">Rp. 38.500<span>Rp. 55.000</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-12%</span>
+                    <div class="image">
+                        <img src="ingredient.jpg" alt="">
+
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h3>Kitchen Ingredients</h3>
+                        <span>Complete kitchen spices for your cooking needs</span>
+                        <div class="price">Rp. 40.480<span>Rp. 46.000</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-18%</span>
+                    <div class="image">
+                        <img src="set.webp" alt="">
+
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">add to cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h3>Kitchen Set</h3>
+                        <span>all kinds of cooking utensils to help you cook</span>
+                        <div class="price">Rp. 180.400<span>Rp. 220.000</span></div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- Our Package section ends -->
+
+    <!-- review section starts-->
+    <section class="review" id="review">
+
+
+            <h1 class="heading"> customer's<span> review</span></h1>
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"E-grois the best online shopping website I have ever met! I often buy groceries and daily necessities from here, 
+                            and my shopping experience is always a delight. They have an excellent selection of vast and high-quality products"</p>
+                            <div class="user">
+                                <img src="foto1.jpeg" alt="">
+                                <div class="user-info">
+                                    <h3>sarah devinsi</h3>
+                                    <span>happy customers</span>
+                                </div>
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                    </div>
+
+                    <div class="box">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"I am very impressed with e-gromuscles! They offer not only a variety of quality products but also a very competitive price. 
+                            I often get a big discount here, which makes my thrift grow. In addition, their websites are easy to navigate and have efficient 
+                            search features"</p>
+                            <div class="user">
+                                <img src="foto2.jpeg" alt="">
+                                <div class="user-info">
+                                    <h3>alexander bith</h3>
+                                    <span>happy customers</span>
+                                </div>
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                    </div>
+
+                    <div class="box">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"E-grois the perfect solution to my online spending needs. They had everything I needed, 
+                            from fresh products to processed foods and household products. I love their eco-friendly 
+                            website interfaces and well-organized layout"</p>
+                            <div class="user">
+                                <img src="foto3.jpeg" alt="">
+                                <div class="user-info">
+                                    <h3>gufron sasha</h3>
+                                    <span>happy customers</span>
+                                </div>
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                    </div>
+                    
+                </div>
+    </section>
+    <!-- review section ends-->
+
+    <!-- footer section starts-->
+    <div class="home-sci">
+        <a href="https://instagram.com/alzaaanr_?igshid=ZDc4ODBmNjlmNQ=="><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://www.linkedin.com/in/alizaaaja/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Alizaaaja4"><i class='bx bxl-github'></i></a>
+    </div>
+    <!-- footer section starts-->
+
+
+    <!-- script js starts -->
+    <script>
+            function validateForm() {
+              // Mengambil nilai dari input
+              var nama = document.getElementById('nama').value;
+              var email = document.getElementById('mail').value;
+              var phone = document.getElementById('phone').value;
+              var pesan = document.getElementById('pesan').value;
+          
+              // Validasi input
+              if (nama === '') {
+                alert('Please fill in your name');
+                return false;
+              }
+          
+              if (email === '') {
+                alert('Please fill out your email address');
+                return false;
+              }
+          
+              if (phone === '') {
+                alert('Please fill in your phone number');
+                return false;
+              }
+          
+              if (pesan === '') {
+                alert('Please fill out your message');
+                return false;
+              }
+          
+              // Semua input telah valid
+              alert('Request completed form');
+              return true;
+            }
+     </script>
+    <!-- script js ends-->
+
+</body>
+</html>
