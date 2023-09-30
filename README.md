@@ -1,5 +1,4 @@
 # Project Website E-Grocery
-Tugas AKhir REVO.U 2023
 
 Judul Tugas : E-Grocery
 
