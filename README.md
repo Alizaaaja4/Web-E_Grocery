@@ -4,6 +4,8 @@ Judul Tugas : E-Grocery
 
 Deskripsi : Website E-Gr0cery adalah website yang dibuat dengan menggunakan base html, css, dan javascript. Website ini design seperti website ecommerce yang berfokus sebagai toko online penyedia kebutuhan dapur.
 
+[![My Skills](https://skillicons.dev/icons?i=vscode,html,css,js)](https://skillicons.dev)
+
 ## Fitur Program
 Dalam website E-Grocery terdapat 3 fitur yaitu home, our package, dan review yang memiliki fungsi diantara nya:
 
