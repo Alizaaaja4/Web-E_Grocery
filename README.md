@@ -1,10 +1,10 @@
-# Project Website E-Grocery
+<h1 align="center">Project Website E-Grocery </h1>
 
-Judul Tugas : E-Grocery
+<h1 align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vscode,github,html,css,js" alt="web 1"></a></h1>
 
-Deskripsi : Website E-Gr0cery adalah website yang dibuat dengan menggunakan base html, css, dan javascript. Website ini design seperti website ecommerce yang berfokus sebagai toko online penyedia kebutuhan dapur.
+Project: E-Grocery
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,html,css,js)](https://skillicons.dev)
+Description : E-Gr0cery website is a website created using base html, css, and javascript. This website is designed like an ecommerce website that focuses as an online store providing kitchen needs.
 
 ## Fitur Program
 Dalam website E-Grocery terdapat 3 fitur yaitu home, our package, dan review yang memiliki fungsi diantara nya:
